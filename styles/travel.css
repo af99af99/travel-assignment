@@ -1,0 +1,314 @@
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+.color{
+    color: #FF5400;
+}
+nav >ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color:#424247;
+}
+
+.container{
+    width: 500px;
+    height: 700px;
+    position: relative;
+    line-height: 23px;
+}
+.gradient{
+    height: 550px;
+    width: 1140px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+   
+    margin-left: 60px;
+    border-radius: 16px;
+}
+.img{
+    margin-left: 60px;
+    height: 550px;
+    width: 1140px;
+    border-radius: 16px;
+}
+
+.banner-text{
+    position: absolute;
+    top: 120px;
+    margin-left: 220px;
+    color:  #f3f0f0;
+text-align: center;
+height: 632px;
+width: 890px;
+font-style: normal;
+margin-bottom: 0;
+
+}
+
+.po{
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+
+}
+.fo{
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin-top: 1px;
+    opacity: .6;
+}
+.btn1{
+    margin-left: 5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+color: rgba(69, 69, 236, 0.5);
+}
+.btn2{
+    margin-left: 5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+color: rgba(69, 69, 236, 0.5);
+}
+.btn3{
+    margin-left: 5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+color: rgba(69, 69, 236, 0.5);
+}
+.btn4{
+    margin-left: 5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+background:#FF5400;
+border: none;
+color: rgb(255, 255, 255);
+}
+.arrow{
+    height: 17px;
+    width: 24px;
+
+}
+.arrow1{
+    height: 19px;
+    width: 24px;
+    color: #f3f0f0;
+}
+.text{
+    margin-left: 60px;
+    width: 30%;
+}
+
+p,li{
+    color: rgb(158, 156, 156);
+    font-size: smaller;
+}
+.btn5{
+    margin-left: 5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+background: #FF5400;
+border: none;
+color: rgb(248, 248, 250);
+}
+.text-pic{
+    display: flex;
+    position: absolute;
+}
+.rectangle4{
+    height: 410px;
+    margin-top: 35px;
+    position: relative;
+    width: 105%;
+    margin-left: 158px;
+}
+.choose-destination{
+    margin-top: 600px;
+    text-align: center;
+    width: 550px;
+    margin-left: 350px;
+}
+/*destination pic*/
+.destination-pic-set{
+    display: flex;
+
+}
+.maldiv{
+    margin-left: 60px;
+    width: 562px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, 
+    rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>),
+     rgb(85, 83, 83) 50% / cover no-repeat;
+     border-radius: 15px;
+}
+.maldives{
+    display: flex;
+    position: relative;
+}
+.pic-text{
+position:absolute;
+margin-left: 300px;
+margin-top: 180px;
+font-size: 22px;
+color: #f3f0f0;
+}
+.indonasia1{
+    margin-left: 14px;
+    width: 562px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, 
+    rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>),
+     rgb(85, 83, 83) 50% / cover no-repeat;
+     border-radius: 15px;
+}
+.indonasia{
+    display: flex;
+    position: relative;
+}
+.pic-text1{
+    position:absolute;
+    margin-left: 280px;
+    margin-top: 180px;
+    font-size: 22px;
+    color: #f3f0f0;
+    }
+/* second column pic set*/
+    .lanka{
+        margin-top: 16px;
+        margin-left: 60px;
+        width: 340px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, 
+        rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>),
+         rgb(85, 84, 84) 50% / cover no-repeat;
+         border-radius: 15px;
+    }
+    .sri{
+        display: flex;
+        position: relative;
+    }
+    .pic-text2{
+        position:absolute;
+        margin-left: 200px;
+        margin-top: 160px;
+        font-size: 22px;
+        color: #f7eeee;
+        }
+    
+        .north{
+            display: flex;
+        position: relative;
+        }
+        .america{
+            margin-top: 16px;
+            margin-left: 15px;
+            width: 515px;
+            background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, 
+            rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>),
+             rgb(59, 58, 58) 50% / cover no-repeat;
+             border-radius: 20px;
+        }
+        .pic-text3{
+            position:absolute;
+            margin-left: 200px;
+            margin-top: 160px;
+            font-size: 22px;
+            color: #f7eeee;
+            }
+
+            .kash{
+                display: flex;
+                position: relative;
+            }
+
+            .mir{
+                margin-top: 16px;
+                margin-left: 15px;
+                width: 255px;
+                background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, 
+                rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>),
+                 rgb(59, 58, 58) 50% / cover no-repeat;
+                 border-radius: 20px;
+
+            }
+
+            .pic-text4{
+                position:absolute;
+                margin-left: 120px;
+                margin-top: 160px;
+                font-size: 22px;
+                color: #f7eeee;
+                }
+/* third column pic set*/
+.bangla{
+    display: flex;
+    position: relative;
+}
+.desh{
+    margin-top: 16px;
+    margin-left: 60px;
+    width: 520px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, 
+    rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>),
+     rgb(59, 58, 58) 50% / cover no-repeat;
+     border-radius: 20px;
+
+}
+
+.pic-text5{
+    position:absolute;
+    margin-left: 270px;
+    margin-top: 160px;
+    font-size: 22px;
+    color: #f7eeee;
+    }
+.bandar{
+    display: flex;
+    position: relative;
+}
+.ban{
+    margin-top: 16px;
+    margin-left: 15px;
+    width: 700px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, 
+    rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>),
+     rgb(59, 58, 58) 50% / cover no-repeat;
+     border-radius: 20px;
+
+}
+.pic-text6{
+    position:absolute;
+    margin-left: 290px;
+    margin-top: 160px;
+    font-size: 22px;
+    color: #f7eeee;
+    }
