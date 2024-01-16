@@ -591,6 +591,7 @@ border: 0;
 background-color:#FF5400;
 color: #f3f0f0;
 font-size: 16px;
+
 }
 /*bonus third pic*/
 .bonus-part1{
@@ -607,7 +608,7 @@ font-size: 16px;
     font-size: 16px;
     height: 30px;
     width: 165px;
-    margin-left: 80px;
+    margin-left: 520px;
     border-radius: 8px;
     }
     
@@ -861,7 +862,7 @@ font-size: 16px;
 .fb{
     height: 34px;
     width: 34px;
-    margin-top: 240px;
+    margin-top: 260px;
     margin-left: 20px;
 
 }
